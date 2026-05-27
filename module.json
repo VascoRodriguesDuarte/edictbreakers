@@ -1,0 +1,249 @@
+{
+  "id": "edictbreakers",
+  "title": "Edictbreakers",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "packs": [
+    {
+      "name": "iconoclast-actions",
+      "label": "Iconoclast - Actions",
+      "path": "packs/iconoclast-actions",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "iconoclast-archetype-feats",
+      "label": "Iconoclast - Archetype Feats",
+      "path": "packs/iconoclast-archetype-feats",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "iconoclast-class",
+      "label": "Iconoclast - Class",
+      "path": "packs/iconoclast-class",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "iconoclast-class-feature",
+      "label": "Iconoclast - Class Features",
+      "path": "packs/iconoclast-class-feature",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "iconoclast-effects",
+      "label": "Iconoclast - Effects",
+      "path": "packs/iconoclast-effects",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "iconoclast-feats",
+      "label": "Iconoclast - Feats",
+      "path": "packs/iconoclast-feats",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "iconoclast-journal",
+      "label": "Iconoclast - Journal",
+      "path": "packs/iconoclast-journal",
+      "type": "JournalEntry",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "eb-conditions",
+      "label": "EB Conditions",
+      "path": "packs/eb-conditions",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "eb-equipment",
+      "label": "EB Equipment",
+      "path": "packs/eb-equipment",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "eb-spells",
+      "label": "EB Spells",
+      "path": "packs/eb-spells",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+	,
+    {
+      "name": "eb-achak",
+      "label": "EB Achak",
+      "path": "packs/eb-achak",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "eb-sekmin",
+      "label": "EB Sekmin",
+      "path": "packs/eb-sekmin",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Edictbreakers",
+      "sorting": "a",
+      "packs": [
+		"eb-conditions",
+		"eb-equipment",
+		"eb-spells"
+	  ],
+      "folders": [
+		{
+          "name": "Iconoclast",
+          "sorting": "a",
+          "color": "#663399",
+          "packs": [
+            "iconoclast-actions",
+            "iconoclast-archetype-feats",
+            "iconoclast-class",
+            "iconoclast-class-feature",
+            "iconoclast-effects",
+            "iconoclast-feats",
+            "iconoclast-journal"
+          ],
+          "folders": []
+        },
+		{
+          "name": "Ancestries",
+          "sorting": "a",
+          "packs": [
+		  "eb-achak",
+            "eb-sekmin"
+          ],
+          "folders": []
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "edictbreakers": {
+      "pf2e-homebrew": {
+        "featTraits": {
+		  "follow-up": {
+            "label": "Follow-Up",
+            "description": "Follow-up abilities and feats can only be used after you successfully do a check on a reaction or a creature fails against the effects of a reaction."
+          },
+		  "first-strike": {
+            "label": "First Strike",
+            "description": "Actions or abilities with this trait are only applied when the affected creature is unharmed."
+          },
+		  "bloodied": {
+            "label": "Bloodied",
+            "description": "Actions or abilities with this trait are only applied when the affected creature is below half of their Hit Points."
+          },
+          "iconoclast-feats": {
+            "label": "Iconoclast",
+            "description": "Feats and features of the iconoclast class."
+          },
+		  "sekmin": {
+            "label": "Sekmin",
+            "description": "Feats and features of the sekmin ancestry"
+          },
+		  "achak": {
+            "label": "Achak",
+            "description": "Feats and features of the achak ancestry"
+          }
+        },
+		"creatureTraits": {
+		  "sekmin": {
+            "label": "Sekmin",
+            "description": "Feats and features of the sekmin ancestry"
+          },
+		  "achak": {
+            "label": "Achak",
+            "description": "Feats and features of the achak ancestry"
+          }
+		},
+		"weaponTraits": {
+		  "sekmin": {
+            "label": "Sekmin",
+            "description": "An item with this trait is created and used by sekmins"
+          },
+		  "achak": {
+            "label": "Achak",
+            "description": "An item with this trait is created and used by achaks"
+          }
+		}
+      }
+    }
+  },
+  "authors": [
+    {
+      "name": "Vasco Duarte"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system"
+      }
+    ]
+  },
+  "url": "???",
+  "manifest": "???",
+  "download": "???"
+}
