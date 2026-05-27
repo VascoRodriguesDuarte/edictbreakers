@@ -243,7 +243,7 @@
       }
     ]
   },
-  "url": "???",
-  "manifest": "???",
-  "download": "???"
+  "url": "https://github.com/VascoRodriguesDuarte/edictbreakers",
+  "manifest": "https://raw.githubusercontent.com/VascoRodriguesDuarte/edictbreakers/master/module.json",
+  "download": "https://github.com/VascoRodriguesDuarte/edictbreakers/archive/refs/heads/master.zip"
 }
